@@ -46,5 +46,5 @@ d3.select('#mix-gif').attr('xlink:href',asset_path+'empty_space.svg');d3.selectA
 d3.select('#output-success').attr('xlink:href',asset_path+'empty_space.svg');d3.select('.instructions').style('opacity','0');d3.select('.instructions-step-number').text('1');d3.select('.instructions-description').text('Choose the first input.');d3.select('.flex-drag-container').style('opacity','0');d3.select('.success-message-container').style('opacity','0');d3.selectAll('circle.dot').remove();animationRunning=!1;if(leftTimer.stop()){leftTimer.stop()}
 if(rightTimer.stop()){rightTimer.stop()}
 if(centerTimer.stop()){centerTimer.stop()}}
-function setAssetPaths(){var asset_path='/content/images/2018/05/';if(window.location.hostname=='the-dataface.github.io'){asset_path=asset_path.substring(1)}
+function setAssetPaths(){var asset_path='/heartunderthemicroscope/content/images/2018/05/';if(window.location.hostname=='the-dataface.github.io'){asset_path=asset_path.substring(1)}
 return asset_path}
